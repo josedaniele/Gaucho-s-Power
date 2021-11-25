@@ -1,0 +1,180 @@
+/*Ediciones Generales*/
+body {
+  background-image: linear-gradient(45deg, #fad586 50%, white);
+  font-family: "Rubik", sans-serif; }
+
+header {
+  background-image: url(../Multimedia/fondo13.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  padding-top: 200px; }
+
+h1 {
+  color: #96bb7c;
+  text-align: center; }
+
+.subtitulo {
+  font-family: "Rubik", sans-serif;
+  color: #14868c;
+  font-weight: 400;
+  font-size: 40px;
+  padding-top: 30px; }
+
+h3 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #14868c; }
+
+.logo :hover {
+  transform: rotate(35deg); }
+
+.linksHeader {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: end; }
+  .linksHeader :hover {
+    transform: scale(1.05); }
+
+.linkInstagram > img {
+  width: 50px;
+  margin-right: 10px; }
+
+.linkUsuario > img {
+  width: 50px;
+  margin-right: 10px; }
+
+.parrafos {
+  font-family: "Rubik", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  margin-right: 300px;
+  text-align: left; }
+
+footer {
+  background-color: #52734D; }
+
+.piePagina {
+  font-family: "Rubik", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: white;
+  margin-top: 20px; }
+
+.linkInstagramPie img {
+  margin-top: 20px;
+  width: 50px; }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .logo {
+    display: flex;
+    justify-content: center; }
+  .linksHeader {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px; }
+  header {
+    background-image: url(../Multimedia/fondo13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 200px; }
+  .parrafos {
+    margin: 0px;
+    font-size: 20px;
+    text-align: justify; } }
+
+/*Index*/
+#seccionInferior {
+  margin: 100px; }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #seccionInferior {
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-top: 20px; }
+  .musica {
+    position: relative;
+    width: 80%;
+    height: 0;
+    padding-bottom: 25%;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+  .musica iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%; } }
+
+/*Estilo Nosotros*/
+#nosotros {
+  font-family: "Rubik", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  font-size: 20px; }
+
+.textoVideo {
+  margin-bottom: 20px; }
+
+.video {
+  position: relative;
+  width: 80%;
+  height: 0;
+  padding-bottom: 50%;
+  padding-right: 50%;
+  overflow: hidden;
+  margin-bottom: 30px; }
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 700px;
+  height: 90%; }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .video {
+    position: relative;
+    width: 80%;
+    height: 0;
+    padding-bottom: 100%;
+    margin-bottom: 30px; }
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px; } }
+
+/*Estilo Productos*/
+.listasProductos {
+  list-style-type: circle;
+  list-style-position: inside; }
+
+.bordes {
+  border: 8px #184d47 solid;
+  border-radius: 30px; }
+
+/*Contacto*/
+.menuContacto {
+  background-image: url(../Multimedia/fondo10.jpg);
+  background-position-y: 50%;
+  color: #000;
+  font-weight: 700; }
+
+.h3Contacto {
+  background-color: #52734D;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px; }
+
+/*Como Curar Un Mate*/
+.curarMate {
+  font-family: "Rubik", sans-serif;
+  font-weight: 200;
+  font-size: 20px; }

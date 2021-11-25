@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaucho's Power</title>
+    <link rel="stylesheet" href="./css/destino.css" />
+    <link rel="icon" href="Multimedia/mate-apple.ico" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet" />
+    <!-- CSS Librerias -->
+    <link rel="stylesheet" href="./cssBootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--SEO-->
+    <meta
+      name="description"
+      content="Somos una pagina que vende productos de manera ecofriendly relacionados a la cultura Argentina como mates, portatermos, bombillas entre otras cosas"
+    />
+    <meta name="keywords" content="GAUCHO'S POWER, MATE, YERBA, GAUCHO, ARGENTINA, CULTURA " />
+  </head>
+
+  <body>
+    <header class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="./index.html" class="logo"><img src="./Multimedia/mate-apple.ico" alt="logo" class="img-fluid" /></a>
+        </div>
+
+        <div class="col-md-4">
+          <h1 class="display-1">Gaucho's Power</h1>
+        </div>
+
+        <div class="col-md-4">
+          <ul class="linksHeader">
+            <li>
+              <a href="https://www.instagram.com/gauchospower/" class="linkInstagram"
+                ><img src="./Multimedia/instagram.svg" alt="instagram" class="img-fluid"
+              /></a>
+            </li>
+
+            <li>
+              <a href="./Sections/contacto.html #crearUsuario" class="linkUsuario"
+                ><img src="./Multimedia/usuario.svg" alt="usuario" class="img-fluid"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="../index.html">Gaucho's Power</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Sections/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="./Sections/productos.html">Portatermos y Mates</a></li>
+                <li><a class="dropdown-item" href="./Sections/comoPrerpararUnMate.html">Como preparar el mate para su uso</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Sections/contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscador" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container-fluid">
+      <section class="row">
+        <div class="col-md-8 col-12">
+          <h2 class="subtitulo">Por que nuestro nombre?</h2>
+
+          <p class="parrafos">
+            Nuestro nombre esta inspirado en dos cuestiones. La primera es la busqueda <br />
+            de algo que represente la cultura del mate como lo es el gaucho. Y la segunda <br />
+            que es de donde surge el nombre. En esta cuestion tomamos el nombre de una <br />
+            de las canciones de la famosa banda de rock "El Cuarteto De Nos"
+            <br />
+            Aqui le dejamos un fragmento de la cancion:
+          </p>
+          <div class="musica animate__animated animate__bounce">
+            <iframe
+              src="https://open.spotify.com/embed/track/5wNZtFOmq64IAq7tKkIv8d"
+              width="50%"
+              height="80"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-12">
+          <img src="./Multimedia/mateAtardecer.jpg" alt="Mate atardecer" class="img-fluid" />
+        </div>
+      </section>
+
+      <section id="seccionInferior">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="Multimedia/mateCarrusel3.jpg" class="d-block w-100" alt=" Mate con portatermo" />
+                </div>
+                <div class="carousel-item">
+                  <img src="Multimedia/mateCarrusel2.jpg" class="d-block w-100" alt="bombilla" />
+                </div>
+                <div class="carousel-item">
+                  <img src="Multimedia/mateCarrusel.jpg" class="d-block w-100" alt="Mate con torta asada" />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="container-fluid">
+        <div class="row">
+          <div class="col-md-8">
+            <p class="piePagina">
+              Email: gauchospower@gmail.com <br />
+              Tel: +5425487974 <br />
+              Designed By José Daniele ©2021 <br />
+            </p>
+          </div>
+          <div class="col-md-4">
+            <ul class="linksHeader">
+              <li>
+                <a href="https://www.instagram.com/gauchospower/" class="linkInstagramPie"
+                  ><img src="./Multimedia/instagram.svg" alt="instagram" class="img-fluid"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
