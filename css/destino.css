@@ -61,11 +61,18 @@ footer {
   font-weight: 200;
   font-size: 20px;
   color: white;
-  margin-top: 20px; }
-
-.linkInstagramPie img {
   margin-top: 20px;
-  width: 50px; }
+  text-align: center; }
+
+.linkInstagramPie {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .linkInstagramPie img {
+    width: 50px; }
+  .linkInstagramPie :hover {
+    transform: scale(1.05); }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .logo {
