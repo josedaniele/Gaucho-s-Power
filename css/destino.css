@@ -39,11 +39,11 @@ h3 {
     transform: scale(1.05); }
 
 .linkInstagram > img {
-  width: 50px;
+  width: 60px;
   margin-right: 10px; }
 
 .linkUsuario > img {
-  width: 50px;
+  width: 60px;
   margin-right: 10px; }
 
 .parrafos {
@@ -54,7 +54,7 @@ h3 {
   text-align: left; }
 
 footer {
-  background-color: #52734D; }
+  background-color: #52734d; }
 
 .piePagina {
   font-family: "Rubik", sans-serif;
@@ -64,15 +64,17 @@ footer {
   margin-top: 20px;
   text-align: center; }
 
-.linkInstagramPie {
-  list-style-type: none;
+.linkInstagramPie img {
+  width: 60px; }
+
+.linkInstagramPie a {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
-  .linkInstagramPie img {
-    width: 50px; }
-  .linkInstagramPie :hover {
-    transform: scale(1.05); }
+  justify-content: center;
+  margin-bottom: 20px; }
+
+.linkInstagramPie :hover {
+  transform: scale(1.05); }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .logo {
@@ -173,11 +175,11 @@ footer {
   font-weight: 700; }
 
 .h3Contacto {
-  background-color: #52734D;
+  background-color: #52734d;
   color: white;
   text-align: center;
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 100px;
   padding: 10px; }
 
 /*Como Curar Un Mate*/

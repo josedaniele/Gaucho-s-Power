@@ -2153,9 +2153,9 @@ progress {
 .form-label {
   margin-bottom: 0.5rem;
   background-color: white;
-  border-radius: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
+  border-radius: 5px;
+  padding: 10px 50px;
+  margin-top: 30px;
 }
 
 .col-form-label {
