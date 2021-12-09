@@ -61,18 +61,18 @@ h3 {
 }
 .linkInstagram > img {
   width: $logo-size;
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 .linkUsuario > img {
   width: $logo-size;
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 
 .parrafos {
   font-family: $fontFamily1;
   font-weight: $textos-weigth/2;
   font-size: $textos-size;
-  margin-right: 300px;
+  margin-right: 19rem;
   text-align: left;
 }
 footer {
@@ -83,7 +83,7 @@ footer {
   font-weight: $textos-weigth/2;
   font-size: $textos-size;
   color: white;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   text-align: center;
 }
 .linkInstagramPie {
@@ -95,7 +95,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
 
   :hover {
@@ -110,18 +110,18 @@ footer {
   .linksHeader {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
   }
   header {
     background-image: url(../Multimedia/fondo13.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 200px;
+    padding-top: 12.5rem;
   }
   .parrafos {
     margin: 0px;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: justify;
   }
 }
