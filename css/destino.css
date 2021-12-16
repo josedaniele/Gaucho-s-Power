@@ -30,19 +30,19 @@ h3 {
 .logo :hover {
   transform: rotate(35deg); }
 
-.linksHeader {
+.linksHeader ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: end; }
-  .linksHeader :hover {
+  .linksHeader ul :hover {
     transform: scale(1.05); }
 
 .linkInstagram > img {
   width: 60px;
   margin-right: 1rem; }
 
-.linkUsuario > img {
+.linkTwitter > img {
   width: 60px;
   margin-right: 1rem; }
 
@@ -64,17 +64,16 @@ footer {
   margin-top: 1.25rem;
   text-align: center; }
 
-.linkInstagramPie img {
-  width: 60px; }
-
-.linkInstagramPie a {
+.linkInstagramPie {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  margin-bottom: 1.25rem; }
-
-.linkInstagramPie :hover {
-  transform: scale(1.05); }
+  justify-content: center; }
+  .linkInstagramPie img {
+    width: 60px; }
+  .linkInstagramPie a {
+    margin: 0.75rem; }
+  .linkInstagramPie :hover {
+    transform: scale(1.05); }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .logo {
